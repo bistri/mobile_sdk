@@ -5,6 +5,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://developers.bistri.com"
   s.author       = "Bistri"
   s.description  = "Bistri software development kits (SDKs) for building video/audio call functionality in iOS applications."
-  s.source       = { :http => "git@github.com:bistri/mobile_sdk/ios/releases/bistri_api2-#{s.version}.framework.zip" }
+  s.description  = <<-DESC
+Bistri software development kits (SDKs) for building video/audio call functionality in iOS applications.
+DESC
+  s.source       = { :http => "https://github.com:bistri/mobile_sdk/raw/master/ios/releases/bistri_api2-#{s.version}.framework.zip" }
   s.vendored_frameworks = 'api2.framework'
 end

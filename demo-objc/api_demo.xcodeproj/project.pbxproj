@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2D673CE2A1549F600913514 /* bistriAPI2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D673CD2A1549F600913514 /* bistriAPI2.framework */; };
+		B2FAD74F22B3E67A0071A729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAD74E22B3E67A0071A729 /* AppDelegate.m */; };
+		B2FAD75222B3E67A0071A729 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAD75122B3E67A0071A729 /* ViewController.m */; };
+		B2FAD75D22B3E67C0071A729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAD75C22B3E67C0071A729 /* main.m */; };
+		B2FAD76422B3E8720071A729 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FAD76322B3E8720071A729 /* ViewController.xib */; };
+		B2FAD76B22B3E9EF0071A729 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FAD76822B3E9EF0071A729 /* VideoToolbox.framework */; };
+		B2FAD76C22B3E9EF0071A729 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FAD76922B3E9EF0071A729 /* GLKit.framework */; };
+		B2FAD76D22B3E9EF0071A729 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FAD76A22B3E9EF0071A729 /* SystemConfiguration.framework */; };
+		B2FAD77022B3EB700071A729 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FAD76E22B3EB700071A729 /* Icon.png */; };
+		B2FAD77122B3EB700071A729 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FAD76F22B3EB700071A729 /* wood.png */; };
+		B2FAD77322B3EBD10071A729 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FAD77222B3EBD10071A729 /* Default.png */; };
+		C70C4764B6C3E2EE61DB0471 /* Pods_api_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD5D63EC386372B224315E2 /* Pods_api_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5321578BB2FE7092437015AB /* Pods-api_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-api_demo.release.xcconfig"; path = "Target Support Files/Pods-api_demo/Pods-api_demo.release.xcconfig"; sourceTree = "<group>"; };
+		8AD5D63EC386372B224315E2 /* Pods_api_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_api_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D673CD2A1549F600913514 /* bistriAPI2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bistriAPI2.framework; path = Pods/bistriSDK/bistriAPI2.framework; sourceTree = "<group>"; };
+		B2FAD74A22B3E67A0071A729 /* api_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = api_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FAD74D22B3E67A0071A729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2FAD74E22B3E67A0071A729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2FAD75022B3E67A0071A729 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2FAD75122B3E67A0071A729 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2FAD75B22B3E67C0071A729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FAD75C22B3E67C0071A729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2FAD76322B3E8720071A729 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		B2FAD76822B3E9EF0071A729 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B2FAD76922B3E9EF0071A729 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B2FAD76A22B3E9EF0071A729 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B2FAD76E22B3EB700071A729 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B2FAD76F22B3EB700071A729 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		B2FAD77222B3EBD10071A729 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C27C6714A3EE950B6C9C23FF /* Pods-api_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-api_demo.debug.xcconfig"; path = "Target Support Files/Pods-api_demo/Pods-api_demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2FAD74722B3E67A0071A729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FAD76B22B3E9EF0071A729 /* VideoToolbox.framework in Frameworks */,
+				B2FAD76C22B3E9EF0071A729 /* GLKit.framework in Frameworks */,
+				B2FAD76D22B3E9EF0071A729 /* SystemConfiguration.framework in Frameworks */,
+				C70C4764B6C3E2EE61DB0471 /* Pods_api_demo.framework in Frameworks */,
+				B2D673CE2A1549F600913514 /* bistriAPI2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F301F81F444B5C67530397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C27C6714A3EE950B6C9C23FF /* Pods-api_demo.debug.xcconfig */,
+				5321578BB2FE7092437015AB /* Pods-api_demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2FAD74122B3E67A0071A729 = {
+			isa = PBXGroup;
+			children = (
+				B2FAD74C22B3E67A0071A729 /* api_demo */,
+				B2FAD74B22B3E67A0071A729 /* Products */,
+				B2FAD76522B3E9B20071A729 /* Frameworks */,
+				11F301F81F444B5C67530397 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FAD74B22B3E67A0071A729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FAD74A22B3E67A0071A729 /* api_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2FAD74C22B3E67A0071A729 /* api_demo */ = {
+			isa = PBXGroup;
+			children = (
+				B2FAD77222B3EBD10071A729 /* Default.png */,
+				B2FAD76E22B3EB700071A729 /* Icon.png */,
+				B2FAD76F22B3EB700071A729 /* wood.png */,
+				B2FAD76322B3E8720071A729 /* ViewController.xib */,
+				B2FAD74D22B3E67A0071A729 /* AppDelegate.h */,
+				B2FAD74E22B3E67A0071A729 /* AppDelegate.m */,
+				B2FAD75022B3E67A0071A729 /* ViewController.h */,
+				B2FAD75122B3E67A0071A729 /* ViewController.m */,
+				B2FAD75B22B3E67C0071A729 /* Info.plist */,
+				B2FAD75C22B3E67C0071A729 /* main.m */,
+			);
+			path = api_demo;
+			sourceTree = "<group>";
+		};
+		B2FAD76522B3E9B20071A729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2FAD76922B3E9EF0071A729 /* GLKit.framework */,
+				B2FAD76A22B3E9EF0071A729 /* SystemConfiguration.framework */,
+				B2FAD76822B3E9EF0071A729 /* VideoToolbox.framework */,
+				8AD5D63EC386372B224315E2 /* Pods_api_demo.framework */,
+				B2D673CD2A1549F600913514 /* bistriAPI2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2FAD74922B3E67A0071A729 /* api_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FAD76022B3E67C0071A729 /* Build configuration list for PBXNativeTarget "api_demo" */;
+			buildPhases = (
+				E887F2A13B63E3EBE00B3793 /* [CP] Check Pods Manifest.lock */,
+				B2FAD74622B3E67A0071A729 /* Sources */,
+				B2FAD74722B3E67A0071A729 /* Frameworks */,
+				B2FAD74822B3E67A0071A729 /* Resources */,
+				AA96ED055E603A20E6DA740C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = api_demo;
+			productName = api_demo;
+			productReference = B2FAD74A22B3E67A0071A729 /* api_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2FAD74222B3E67A0071A729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = bistri;
+				TargetAttributes = {
+					B2FAD74922B3E67A0071A729 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B2FAD74522B3E67A0071A729 /* Build configuration list for PBXProject "api_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2FAD74122B3E67A0071A729;
+			productRefGroup = B2FAD74B22B3E67A0071A729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2FAD74922B3E67A0071A729 /* api_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2FAD74822B3E67A0071A729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FAD77122B3EB700071A729 /* wood.png in Resources */,
+				B2FAD77022B3EB700071A729 /* Icon.png in Resources */,
+				B2FAD76422B3E8720071A729 /* ViewController.xib in Resources */,
+				B2FAD77322B3EBD10071A729 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA96ED055E603A20E6DA740C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-api_demo/Pods-api_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-api_demo/Pods-api_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-api_demo/Pods-api_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E887F2A13B63E3EBE00B3793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-api_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2FAD74622B3E67A0071A729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FAD75222B3E67A0071A729 /* ViewController.m in Sources */,
+				B2FAD75D22B3E67C0071A729 /* main.m in Sources */,
+				B2FAD74F22B3E67A0071A729 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2FAD75E22B3E67C0071A729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2FAD75F22B3E67C0071A729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2FAD76122B3E67C0071A729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27C6714A3EE950B6C9C23FF /* Pods-api_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z45FXE4HV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/bistriSDK",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/sdk/**";
+				INFOPLIST_FILE = api_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk/bistri",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistri.apidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B2FAD76222B3E67C0071A729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5321578BB2FE7092437015AB /* Pods-api_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z45FXE4HV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/bistriSDK",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/sdk/**";
+				INFOPLIST_FILE = api_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk/bistri",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bistri.apidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2FAD74522B3E67A0071A729 /* Build configuration list for PBXProject "api_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FAD75E22B3E67C0071A729 /* Debug */,
+				B2FAD75F22B3E67C0071A729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FAD76022B3E67C0071A729 /* Build configuration list for PBXNativeTarget "api_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FAD76122B3E67C0071A729 /* Debug */,
+				B2FAD76222B3E67C0071A729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2FAD74222B3E67A0071A729 /* Project object */;
+}

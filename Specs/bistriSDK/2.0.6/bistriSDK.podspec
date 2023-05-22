@@ -10,7 +10,7 @@ Bistri software development kits (SDKs) for building video/audio call functional
 DESC
   s.source       = { :http => "https://github.com/bistri/mobile_sdk/raw/master/ios/releases/bistriAPI2.framework-#{s.version}.zip" }
   s.vendored_frameworks = 'api2.framework'
-  s.dependency 'SocketRocket', '~> 7.2'
-  s.dependency 'JSONValueRX', '~> 0.6'
-  s.dependency 'WebRTC-lib', '~> 106.0'
+  s.dependency 'SocketRocket'
+  s.dependency 'JSONValueRX'
+  s.dependency 'WebRTC-lib'
 end

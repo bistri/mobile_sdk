@@ -122,7 +122,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ConferenceDelegate, PeerS
 	}
 
 	func onNewPeer(_ peer: PeerStream!) {
-		print("onNewPeer peer", peer)
+		print("onNewPeer peer")
 		// Called when a new peer joins the conference
 		peer.delegate = self
 

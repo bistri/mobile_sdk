@@ -183,6 +183,8 @@ public class MainActivity extends Activity
         conference.setVideoOption( VideoOption.MAX_HEIGHT, 480 );
         conference.setVideoOption( VideoOption.MAX_FRAME_RATE, 30 );
 
+        conference.setGeneralOption( GeneralOption.AUDIO_BOOST, true );
+
         conference.setLoudspeaker( true );
         conference.connect();
 

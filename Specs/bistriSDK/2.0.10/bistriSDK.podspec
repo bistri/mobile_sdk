@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 Bistri software development kits (SDKs) for building video/audio call functionality in iOS applications.
 DESC
   s.source       = { :http => "https://github.com/bistri/mobile_sdk/raw/master/ios/releases/bistriAPI2.xcframework-#{s.version}.zip" }
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '16.2'
   s.vendored_frameworks = 'bistriAPI2.xcframework'
   s.dependency 'SocketRocket'
   s.dependency 'JSONValueRX'

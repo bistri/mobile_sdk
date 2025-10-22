@@ -1,13 +1,13 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'git@github.com:bistri/mobile_sdk.git'
 
-platform :ios, '12.4'
+platform :ios, '16.2'
 
 target 'demo' do
   use_frameworks!
 
   # Pods for api_demo
-  pod 'bistriSDK'
+  pod 'bistriSDK', '2.0.11'
 end
 
 post_install do |installer|

@@ -368,7 +368,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/bistriSDK",
 				);
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/sdk/**";
 				INFOPLIST_FILE = api_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -377,10 +376,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk/bistri",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bistri.apidemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,7 +397,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/bistriSDK",
 				);
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/sdk/**";
 				INFOPLIST_FILE = api_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,10 +405,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk/bistri",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bistri.apidemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
